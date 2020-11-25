@@ -9,7 +9,7 @@
 
 例如：$ rails new myapp -m https://raw.githubusercontent.com/kevin0117/rails-template/master/my_template.rb -d postgresql
 
-安裝 gem
+##### 安裝 gem
   - devise, '~> 4.7', '>= 4.7.1'
   - friendly_id, '~> 5.3'
   - sidekiq, '~> 6.0', '>= 6.0.6'
@@ -23,6 +23,6 @@
   - simple_form, '~> 5.0', '>= 5.0.3'
   - devise-bootstrap-views, '~> 1.1'
 
-成功安裝後會建立:
+##### 成功安裝後會建立:
 - PagesController 及 index.html.erb
 - 基本的 Devise 使用者驗證機制頁面
