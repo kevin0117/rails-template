@@ -86,7 +86,7 @@ def add_rspec
 end
 
 def add_simple_form
-  generate 'simple_form:install'
+  generate 'simple_form:install --bootstrap'
 end
 
 def add_devise_bootstrap_views
