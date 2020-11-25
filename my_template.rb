@@ -1,6 +1,6 @@
 # Template Name: Fire Up - Bootstrap 4
 # Instructions: $ rails new myapp -d <postgresql, mysql, sqlite3> -m my_template.rb
-# Instructions: $ rails new myapp -m https://raw.githubusercontent.com/kevin0117/My-Rails-Application-Template/main/my_template.rb
+# Instructions: $ rails new myapp -m https://raw.githubusercontent.com/kevin0117/rails-template/master/my_template.rb
 
 require 'fileutils'
 require 'tmpdir'
