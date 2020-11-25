@@ -3,11 +3,11 @@
 ### Bootstrip 基本版
 
 #### 安裝說明：
-在終端機內輸入：$ rails new myapp -m https://raw.githubusercontent.com/kevin0117/rails-template/master/my_template.rb
+在終端機內輸入：rails new myapp -m https://raw.githubusercontent.com/kevin0117/rails-template/master/my_template.rb
 
 如要選擇資料庫則需要加入： -d <postgresql, mysql, sqlite3>
 
-例如：$ rails new myapp -m https://raw.githubusercontent.com/kevin0117/rails-template/master/my_template.rb -d postgresql
+例如：rails new myapp -m https://raw.githubusercontent.com/kevin0117/rails-template/master/my_template.rb -d postgresql
 
 ##### 安裝 gem
   - devise, '~> 4.7', '>= 4.7.1'
