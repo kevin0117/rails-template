@@ -1,6 +1,6 @@
 # My Rails Application Templates
 
-### Bootstrip Devise Version
+### Bootstrap Devise Version
 
 #### 安裝說明：
 在終端機內輸入：rails new myapp -m https://raw.githubusercontent.com/kevin0117/rails-template/master/my_template.rb
@@ -29,7 +29,7 @@
 
 
 
-### Bootstrip Basic Version
+### Bootstrap Basic Version
 
 #### 安裝說明：
 在終端機內輸入：rails new myapp -m https://raw.githubusercontent.com/kevin0117/rails-template/master/my_template.rb
