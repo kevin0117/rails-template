@@ -30,7 +30,8 @@ end
 
 def copy_templates
   directory 'app/assets/stylesheets', force: true
-  directory 'config', force: true
+  directory 'app/javascript/packs', force: true
+  directory 'config/webpack', force: true
 end
 
 def remove_app_css
