@@ -19,7 +19,7 @@ def set_source_path
 end
 
 def add_gems
-  gem 'devise', '~> 4.7', '>= 4.7.1'
+  gem 'devise', '~> 4.7', '>= 4.7.3'
   gem 'friendly_id', '~> 5.3'
   gem 'sidekiq', '~> 6.0', '>= 6.0.6'
   gem 'foreman', '~> 0.87.1'
@@ -28,8 +28,8 @@ def add_gems
   gem 'factory_bot_rails', '~> 5.1', '>= 5.1.1'
   gem 'faker', '~> 2.11'
   gem 'pry-rails', '~> 0.3.9'
-  gem 'bootstrap', '~> 4.5', '>= 4.5.3'
-  gem 'simple_form', '~> 5.0', '>= 5.0.3'
+  gem 'bootstrap', '~> 4.6'
+  gem 'simple_form', '~> 5.1'
   gem 'devise-bootstrap-views', '~> 1.1'
 end
 
