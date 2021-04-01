@@ -31,6 +31,7 @@ def add_gems
   gem 'bootstrap', '~> 4.6'
   gem 'simple_form', '~> 5.1'
   gem 'devise-bootstrap-views', '~> 1.1'
+  gem 'rexml'
 end
 
 def add_users
