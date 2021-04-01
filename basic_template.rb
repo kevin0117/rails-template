@@ -26,6 +26,7 @@ def add_gems
   gem 'pry-rails', '~> 0.3.9'
   gem 'bootstrap', '~> 4.5', '>= 4.5.3'
   gem 'simple_form', '~> 5.0', '>= 5.0.3'
+  gem 'rexml'
 end
 
 def copy_templates
