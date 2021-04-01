@@ -22,6 +22,7 @@
   - bootstrap, '~> 4.5', '>= 4.5.3'
   - simple_form, '~> 5.0', '>= 5.0.3'
   - devise-bootstrap-views, '~> 1.1'
+  - rexml
 
 ##### 成功安裝後會建立:
 - PagesController 及 index.html.erb
