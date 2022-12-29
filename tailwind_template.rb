@@ -109,7 +109,7 @@ after_bundle do
   # https://raw.githubusercontent.com/kaochenlong/rails-template/master/tailwind.rb
   # frontend packages
   run "yarn add tailwindcss@1.3.5"
-  run "yarn add @fullhuman/postcss-purgecss--ignore-engines"
+  run "yarn add @fullhuman/postcss-purgecss --ignore-engines"
   run "yarn add @fortawesome/fontawesome-free --ignore-engines"
 
   inject_into_file 'app/javascript/packs/application.js', after: "// const imagePath = (name) => images(name, true)" do 
