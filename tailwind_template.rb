@@ -92,6 +92,14 @@ def add_devise_bootstrap_views
   generate 'devise:views:bootstrap_templates'
 end
 
+def add_pages_controller
+  generate :controller, "pages"
+end
+
+def add_index_page
+    copy_file "app/views/pages/index.html.erb"
+end
+
 # Main setup
 set_source_path
 run 'bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java'
@@ -103,6 +111,8 @@ after_bundle do
   add_foreman
   add_friendly_id
   add_rspec
+  add_pages_controller
+  add_index_page
 
   # ---------------------------------------- Refer From ------------------------
   # https://raw.githubusercontent.com/kaochenlong/rails-template/master/tailwind.rb
