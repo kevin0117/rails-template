@@ -101,7 +101,6 @@ after_bundle do
   add_users
   add_sidekiq
   add_foreman
-  copy_templates
   add_friendly_id
   add_rspec
 
